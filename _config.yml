@@ -1,0 +1,72 @@
+# GitHub Pages Configuration
+title: "Open Deep Water"
+description: "OEM WetEnd Integration Program - Open Science Platform Concept on Raspberry Pi"
+url: "https://yourusername.github.io"
+baseurl: "/Open_Deep_Water"
+
+# Author
+author:
+  name: "Andrew Buckin"
+  email: "ipm.grp@googlemail.com"
+
+# GitHub Pages settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Site settings
+lang: en
+timezone: UTC
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Russian"
+    url: "/index.html"
+  - title: "English" 
+    url: "/index_en.html"
+  - title: "Documentation"
+    url: "/Open_Deep_Water_EN.pdf"
+
+# SEO
+google_analytics: # Add your GA tracking ID here
+twitter:
+  username: # Add your Twitter username
+  card: summary_large_image
+
+# Social links
+github_username: yourusername
+linkedin_username: # Add your LinkedIn username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Andrew Buckin"
