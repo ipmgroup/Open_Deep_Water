@@ -1,7 +1,7 @@
 # GitHub Pages Configuration
 title: "Open Deep Water"
 description: "OEM WetEnd Integration Program - Open Science Platform Concept on Raspberry Pi"
-url: "https://yourusername.github.io"
+url: "https://ipmgroup.github.io"
 baseurl: "/Open_Deep_Water"
 
 # Author
@@ -22,10 +22,10 @@ timezone: UTC
 navigation:
   - title: "Home"
     url: "/"
-  - title: "Russian"
+  - title: "English"
     url: "/index.html"
-  - title: "English" 
-    url: "/index_en.html"
+  - title: "Russian" 
+    url: "/index_ru.html"
   - title: "Documentation"
     url: "/Open_Deep_Water_EN.pdf"
 
@@ -36,7 +36,7 @@ twitter:
   card: summary_large_image
 
 # Social links
-github_username: yourusername
+github_username: ipmgroup
 linkedin_username: # Add your LinkedIn username
 
 # Build settings

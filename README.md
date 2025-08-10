@@ -1,8 +1,8 @@
 # 🌊 Open Deep Water — OEM WetEnd Integration Program
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://yourusername.github.io/Open_Deep_Water/)
-[![Status](https://img.shields.io/badge/Status-Concept-yellow)](https://github.com/yourusername/Open_Deep_Water)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://ipmgroup.github.io/Open_Deep_Water/)
+[![Status](https://img.shields.io/badge/Status-Concept-yellow)](https://github.com/ipmgroup/Open_Deep_Water)
 
 ## 📋 Overview
 
@@ -71,7 +71,9 @@ OEM WetEnd ↔ Open Deep Water HAT ↔ Raspberry Pi (Adapter Manager + NAT)
 
 ## 📄 Documentation
 
-- 🌐 **Website**: [Open Deep Water](https://yourusername.github.io/Open_Deep_Water/)
+- 🌐 **Website**: [Open Deep Water](https://ipmgroup.github.io/Open_Deep_Water/)
+- 🇺🇸 **English Version**: [index.html](https://ipmgroup.github.io/Open_Deep_Water/index.html) (default)
+- 🇷🇺 **Russian Version**: [index_ru.html](https://ipmgroup.github.io/Open_Deep_Water/index_ru.html)
 - 📋 **Full Concept (Russian)**: [Open_Deep_Water_RU.pdf](Open_Deep_Water_RU.pdf)
 - 📋 **Full Concept (English)**: [Open_Deep_Water_EN.pdf](Open_Deep_Water_EN.pdf)
 - 📝 **Markdown Version**: [Open_Deep_Water.md](Open_Deep_Water.md)
@@ -85,7 +87,7 @@ OEM WetEnd ↔ Open Deep Water HAT ↔ Raspberry Pi (Adapter Manager + NAT)
 4. Participate in pilot integration program
 
 ### For Researchers
-1. Explore the [project website](https://yourusername.github.io/Open_Deep_Water/)
+1. Explore the [project website](https://ipmgroup.github.io/Open_Deep_Water/)
 2. Join our scientific community
 3. Contribute to open data initiatives
 4. Use the platform for your research
