@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Deep Water — OEM WetEnd Integration Program</title>
-    <meta name="description" content="Концепция открытой научной платформы на Raspberry Pi с поддержкой OEM-WetEnd для океанографических, климатических и экологических исследований">
+    <meta name="description" content="Концепция открытой научной платформы на Raspberry Pi с поддержкой OEM-WetEnd для океанографических, климат    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <a href="index.html">🇺🇸 EN</a>
+        <a href="index_ru.html" class="active">🇷🇺 RU</a>
+        <a href="index_de.html">🇩🇪 DE</a>
+        <a href="index_it.html">🇮🇹 IT</a>
+        <a href="index_fr.html">🇫🇷 FR</a>
+    </div> экологических исследований">
     <meta name="keywords" content="Raspberry Pi, OEM-WetEnd, океанография, экология, открытая наука, HAT, IoT">
     <meta name="author" content="Andrew Buckin">
     
@@ -302,15 +309,18 @@
             border-radius: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             z-index: 1000;
+            display: flex;
+            gap: 5px;
         }
         
         .lang-switcher a {
             color: #2c3e50;
             text-decoration: none;
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 15px;
             transition: all 0.3s ease;
             font-weight: 500;
+            font-size: 0.9em;
         }
         
         .lang-switcher a:hover,
@@ -347,6 +357,12 @@
                 display: block;
                 transform: rotate(90deg);
                 margin: 15px auto;
+            }
+            
+            .lang-switcher {
+                flex-wrap: wrap;
+                right: 10px;
+                top: 10px;
             }
         }
     </style>
