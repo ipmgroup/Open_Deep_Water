@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Deep Water — OEM WetEnd Integration Program</title>
-    <meta name="description" content="Open science platform concept on Raspberry Pi with OEM-WetEnd support for oceanographic, climate and environmental research">
-    <meta name="keywords" content="Raspberry Pi, OEM-WetEnd, oceanography, ecology, open science, HAT, IoT">
-    <meta name="author" cont            <!-- Downloads Section -->
-            <section id="downloads" class="section downloads">
-                <h2>📄 Documentation and Materials</h2>
-                <p>Download the complete project documentation in various formats and languages:</p>
-                <div style="margin: 20px 0;">
-                    <h3>📋 Complete Concept Documents</h3>
-                    <a href="Open_Deep_Water_EN.pdf" class="btn" target="_blank">🇺🇸 Concept (PDF, English)</a>
-                    <a href="Open_Deep_Water_RU.pdf" class="btn" target="_blank">🇷🇺 Концепция (PDF, Русский)</a>
-                    <a href="Open_Deep_Water_DE.pdf" class="btn" target="_blank">🇩🇪 Konzept (PDF, Deutsch)</a>
-                    <a href="Open_Deep_Water_IT.pdf" class="btn" target="_blank">🇮🇹 Concetto (PDF, Italiano)</a>
-                    <a href="Open_Deep_Water_FR.pdf" class="btn" target="_blank">🇫🇷 Concept (PDF, Français)</a>
-                </div>
-                <div style="margin: 20px 0;">
-                    <h3>📝 Markdown Versions</h3>
-                    <a href="Open_Deep_Water_EN.md" class="btn btn-secondary" target="_blank">🇺🇸 English Markdown</a>
-                    <a href="Open_Deep_Water_RU.md" class="btn btn-secondary" target="_blank">🇷🇺 Russian Markdown</a>
-                    <a href="Open_Deep_Water_DE.md" class="btn btn-secondary" target="_blank">🇩🇪 German Markdown</a>
-                    <a href="Open_Deep_Water_IT.md" class="btn btn-secondary" target="_blank">🇮🇹 Italian Markdown</a>
-                    <a href="Open_Deep_Water_FR.md" class="btn btn-secondary" target="_blank">🇫🇷 French Markdown</a>
-                </div>
-                <div style="margin: 20px 0;">
-                    <h3>🔗 Development Resources</h3>
-                    <a href="https://github.com/ipmgroup/Open_Deep_Water" class="btn btn-secondary" target="_blank">GitHub Repository</a>
-                </div>
-            </section>ew Buckin">
+    <meta name="description" content="Konzept einer offenen Wissenschaftsplattform auf Raspberry Pi mit OEM-WetEnd-Unterstützung für ozeanographische, klimatische und Umweltforschung">
+    <meta name="keywords" content="Raspberry Pi, OEM-WetEnd, Ozeanographie, Ökologie, offene Wissenschaft, HAT, IoT">
+    <meta name="author" content="Andrew Buckin">
     
     <!-- Open Graph meta tags for social media -->
     <meta property="og:title" content="Open Deep Water — OEM WetEnd Integration Program">
-    <meta property="og:description" content="Open science platform concept on Raspberry Pi with OEM-WetEnd support">
+    <meta property="og:description" content="Konzept einer offenen Wissenschaftsplattform auf Raspberry Pi mit OEM-WetEnd-Unterstützung">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ipmgroup.github.io/Open_Deep_Water">
     <meta property="og:image" content="https://ipmgroup.github.io/Open_Deep_Water/assets/preview.png">
@@ -275,6 +251,8 @@
         .btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+            color: white;
+            text-decoration: none;
         }
         
         .btn-secondary {
@@ -326,15 +304,18 @@
             border-radius: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             z-index: 1000;
+            display: flex;
+            gap: 5px;
         }
         
         .lang-switcher a {
             color: #2c3e50;
             text-decoration: none;
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 15px;
             transition: all 0.3s ease;
             font-weight: 500;
+            font-size: 0.9em;
         }
         
         .lang-switcher a:hover,
@@ -372,18 +353,23 @@
                 transform: rotate(90deg);
                 margin: 15px auto;
             }
+            
+            .lang-switcher {
+                flex-wrap: wrap;
+                right: 10px;
+                top: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Language Switcher -->
-        <!-- Language Switcher -->
     <div class="lang-switcher">
-        <a href="index.html" class="active">🇺🇸 EN</a>
+        <a href="index.html">🇺🇸 EN</a>
         <a href="index_ru.html">🇷🇺 RU</a>
-        <a href="index_de.html">🇩🇪 DE</a>
+        <a href="index_de.html" class="active">🇩🇪 DE</a>
         <a href="index_it.html">🇮🇹 IT</a>
-        <a href="index_fr.html">�� FR</a>
+        <a href="index_fr.html">🇫🇷 FR</a>
     </div>
 
     <div class="container">
@@ -392,19 +378,19 @@
             <div class="logo">🌊</div>
             <h1>Open Deep Water</h1>
             <p class="subtitle">OEM WetEnd Integration Program</p>
-            <p>Open Science Platform Concept on Raspberry Pi with OEM-WetEnd Support</p>
+            <p>Konzept einer offenen Wissenschaftsplattform auf Raspberry Pi mit OEM-WetEnd-Unterstützung</p>
         </header>
 
         <!-- Navigation -->
         <nav>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#about">Über das Projekt</a></li>
+                <li><a href="#features">Funktionen</a></li>
+                <li><a href="#architecture">Architektur</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
-                <li><a href="#funding">Funding</a></li>
-                <li><a href="#downloads">Documents</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#funding">Finanzierung</a></li>
+                <li><a href="#downloads">Dokumente</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
 
@@ -412,43 +398,43 @@
         <main>
             <!-- About Section -->
             <section id="about" class="section">
-                <h2>📋 About the Project</h2>
-                <p><strong>Open Deep Water</strong> is a concept for a future open platform for collecting, analyzing, and publishing oceanographic, climate, and environmental data.</p>
-                <p>The platform is based on <strong>Raspberry Pi</strong> with a hardware <strong>HAT</strong> (Hardware Attached on Top) module and software <strong>NAT</strong> (Native Adapter Translator) adapters to support OEM-WetEnd from any manufacturers.</p>
+                <h2>📋 Über das Projekt</h2>
+                <p><strong>Open Deep Water</strong> ist ein Konzept für eine zukünftige offene Plattform zum Sammeln, Analysieren und Veröffentlichen von ozeanographischen, klimatischen und Umweltdaten.</p>
+                <p>Die Plattform basiert auf <strong>Raspberry Pi</strong> mit einem Hardware <strong>HAT</strong> (Hardware Attached on Top) Modul und Software <strong>NAT</strong> (Native Adapter Translator) Adaptern zur Unterstützung von OEM-WetEnd verschiedener Hersteller.</p>
             </section>
 
             <!-- Features Section -->
             <section id="features" class="section">
-                <h2>✨ Key Features</h2>
+                <h2>✨ Hauptmerkmale</h2>
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">🔧</div>
-                        <h3>HAT Adapters</h3>
-                        <p>Individual Raspberry Pi HATs for connecting any OEM-WetEnd devices</p>
+                        <h3>HAT-Adapter</h3>
+                        <p>Individuelle Raspberry Pi HATs für den Anschluss beliebiger OEM-WetEnd-Geräte</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">💻</div>
                         <h3>Software NAT</h3>
-                        <p>Drivers for protocol conversion into unified open format</p>
+                        <p>Treiber für die Protokollkonvertierung in ein einheitliches offenes Format</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🤖</div>
-                        <h3>AI Analysis</h3>
-                        <p>Modules for time series analysis, filtering, and anomaly detection</p>
+                        <h3>KI-Analyse</h3>
+                        <p>Module für Zeitreihenanalyse, Filterung und Anomalieerkennung</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🌐</div>
-                        <h3>Open Data</h3>
-                        <p>Integration with scientific databases and repositories</p>
+                        <h3>Offene Daten</h3>
+                        <p>Integration mit wissenschaftlichen Datenbanken und Repositorien</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🔬</div>
-                        <h3>Scientific Ecosystem</h3>
-                        <p>Support for universities, research centers, and citizen science</p>
+                        <h3>Wissenschaftliches Ökosystem</h3>
+                        <p>Unterstützung für Universitäten, Forschungszentren und Bürgerwissenschaft</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📜</div>
-                        <h3>Open Licenses</h3>
+                        <h3>Offene Lizenzen</h3>
                         <p>Apache 2.0, CERN OHL v2, Creative Commons CC-BY 4.0</p>
                     </div>
                 </div>
@@ -456,16 +442,16 @@
 
             <!-- Architecture Section -->
             <section id="architecture" class="section">
-                <h2>🏗️ System Architecture</h2>
+                <h2>🏗️ Systemarchitektur</h2>
                 <div class="architecture-diagram">
                     <div class="arch-box">
                         <strong>OEM WetEnd</strong><br>
-                        <small>Manufacturer Equipment</small>
+                        <small>Hersteller-Ausrüstung</small>
                     </div>
                     <span class="arch-arrow">↔</span>
                     <div class="arch-box">
                         <strong>Open Deep Water HAT</strong><br>
-                        <small>Hardware Adapter</small>
+                        <small>Hardware-Adapter</small>
                     </div>
                     <span class="arch-arrow">↔</span>
                     <div class="arch-box">
@@ -476,89 +462,89 @@
                     <span class="arch-arrow">↓</span>
                     <br><br>
                     <div class="arch-box">
-                        <strong>AI Module</strong><br>
-                        <small>Signal Analysis</small>
+                        <strong>KI-Modul</strong><br>
+                        <small>Signalanalyse</small>
                     </div>
                     <br><br>
                     <span class="arch-arrow">↓</span>
                     <br><br>
                     <div class="arch-box">
-                        <strong>Scientific DB</strong><br>
-                        <small>Open Data</small>
+                        <strong>Wissenschaftliche DB</strong><br>
+                        <small>Offene Daten</small>
                     </div>
                 </div>
             </section>
 
             <!-- Roadmap Section -->
             <section id="roadmap" class="section">
-                <h2>📅 Development Roadmap</h2>
+                <h2>📅 Entwicklungsplan</h2>
                 <div class="timeline">
                     <div class="timeline-item">
-                        <h3>Stage 0: Concept and Partnerships (0–6 months)</h3>
-                        <p>Forming initiative group, attracting first manufacturers for pilot integration, defining HAT architecture and data format.</p>
-                        <p><strong>Budget:</strong> $25,000-50,000</p>
+                        <h3>Phase 0: Konzept und Partnerschaften (0–6 Monate)</h3>
+                        <p>Bildung einer Initiativgruppe, Gewinnung erster Hersteller für die Pilotintegration, Definition der HAT-Architektur und des Datenformats.</p>
+                        <p><strong>Budget:</strong> $25.000-50.000</p>
                     </div>
                     <div class="timeline-item">
-                        <h3>Stage 1: Pilot Prototype (6–12 months)</h3>
-                        <p>Developing and testing first universal HAT, creating 1–2 NAT plugins for OEM-WetEnd, demonstrating prototype operation.</p>
-                        <p><strong>Budget:</strong> $100,000-200,000</p>
+                        <h3>Phase 1: Pilot-Prototyp (6–12 Monate)</h3>
+                        <p>Entwicklung und Test des ersten universellen HAT, Erstellung von 1–2 NAT-Plugins für OEM-WetEnd, Demonstration des Prototypbetriebs.</p>
+                        <p><strong>Budget:</strong> $100.000-200.000</p>
                     </div>
                     <div class="timeline-item">
-                        <h3>Stage 2: Ecosystem Expansion (12–24 months)</h3>
-                        <p>Adding new manufacturers and sensors, launching web portal and open data repository, implementing AI modules.</p>
-                        <p><strong>Budget:</strong> $300,000-500,000</p>
+                        <h3>Phase 2: Ökosystem-Erweiterung (12–24 Monate)</h3>
+                        <p>Hinzufügung neuer Hersteller und Sensoren, Start des Webportals und offenen Daten-Repository, Implementierung von KI-Modulen.</p>
+                        <p><strong>Budget:</strong> $300.000-500.000</p>
                     </div>
                 </div>
             </section>
 
             <!-- Funding Section -->
             <section id="funding" class="section">
-                <h2>💰 Funding Sources</h2>
+                <h2>💰 Finanzierungsquellen</h2>
                 <div class="features-grid">
                     <div class="feature-card">
                         <div class="feature-icon">👥</div>
                         <h3>Crowdfunding</h3>
-                        <p>Kickstarter/Indiegogo campaigns, GitHub Sponsors, Open Collective, donations from research institutions</p>
+                        <p>Kickstarter/Indiegogo-Kampagnen, GitHub Sponsors, Open Collective, Spenden von Forschungseinrichtungen</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🎓</div>
-                        <h3>Scientific Grants</h3>
-                        <p>NSF, EU Horizon Europe, educational institution grants, regional environmental funds</p>
+                        <h3>Wissenschaftliche Förderung</h3>
+                        <p>NSF, EU Horizon Europe, Universitätsstipendien, regionale Umweltfonds</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">🏢</div>
-                        <h3>Corporate Funding</h3>
-                        <p>Partnerships with manufacturers, licensing royalties, sponsorship, venture capital investment</p>
+                        <h3>Unternehmensfinanzierung</h3>
+                        <p>Partnerschaften mit Herstellern, Lizenzgebühren, Sponsoring, Venture Capital Investitionen</p>
                     </div>
                 </div>
             </section>
 
             <!-- Downloads Section -->
             <section id="downloads" class="section downloads">
-                <h2>📄 Documentation and Materials</h2>
-                <p>Download complete project documentation in various formats:</p>
-                <a href="Open_Deep_Water_RU.pdf" class="btn" target="_blank">📋 Concept (PDF, RU)</a>
-                <a href="Open_Deep_Water_EN.pdf" class="btn" target="_blank">📋 Concept (PDF, EN)</a>
+                <h2>📄 Dokumentation und Materialien</h2>
+                <p>Laden Sie die vollständige Projektdokumentation in verschiedenen Formaten herunter:</p>
+                <a href="Open_Deep_Water_RU.pdf" class="btn" target="_blank">📋 Konzept (PDF, RU)</a>
+                <a href="Open_Deep_Water_EN.pdf" class="btn" target="_blank">📋 Konzept (PDF, EN)</a>
                 <a href="Open_Deep_Water.md" class="btn btn-secondary" target="_blank">📝 Markdown Version</a>
                 <a href="https://github.com/ipmgroup/Open_Deep_Water" class="btn btn-secondary" target="_blank">🔗 GitHub Repository</a>
             </section>
 
             <!-- Contact Section -->
             <section id="contact" class="section contact">
-                <h2>📞 Contact</h2>
-                <p><strong>👤 Contact Person:</strong> Andrew Buckin</p>
+                <h2>📞 Kontakt</h2>
+                <p><strong>👤 Ansprechpartner:</strong> Andrew Buckin</p>
                 <p><strong>📧 Email:</strong> <a href="mailto:ipm.grp@googlemail.com">ipm.grp@googlemail.com</a></p>
-                <p><strong>🌐 Website:</strong> (in development)</p>
-                <p><strong>📱 GitHub:</strong> (planned)</p>
-                <p><em>Project is at the concept stage, organization is being formed</em></p>
+                <p><strong>🌐 Website:</strong> (in Entwicklung)</p>
+                <p><strong>📱 GitHub:</strong> (geplant)</p>
+                <p><em>Das Projekt befindet sich im Konzeptstadium, die Organisation wird derzeit gebildet</em></p>
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <p>© 2025 Andrew Buckin. All rights reserved.</p>
-            <p>Document is distributed under Creative Commons CC-BY 4.0 license</p>
-            <p>🌊 Open Deep Water — Opening the depths of scientific collaboration</p>
+            <p>© 2025 Andrew Buckin. Alle Rechte vorbehalten.</p>
+            <p>Dokument wird unter Creative Commons CC-BY 4.0 Lizenz verteilt</p>
+            <p>🌊 Open Deep Water — Die Tiefen wissenschaftlicher Zusammenarbeit öffnen</p>
         </footer>
     </div>
 
