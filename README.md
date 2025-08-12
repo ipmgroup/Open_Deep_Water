@@ -73,8 +73,6 @@ OEM WetEnd ↔ Open Deep Water HAT ↔ Raspberry Pi (Adapter Manager + NAT)
 
 - 🌐 **Website**: [Open Deep Water](https://ipmgroup.github.io/Open_Deep_Water/)
 - 🇺🇸 **English Version**: [index.html](https://ipmgroup.github.io/Open_Deep_Water/index.html) (default)
-- 🇷🇺 **Russian Version**: [index_ru.html](https://ipmgroup.github.io/Open_Deep_Water/index_ru.html)
-- 📋 **Full Concept (Russian)**: [Open_Deep_Water_RU.pdf](Open_Deep_Water_RU.pdf)
 - 📋 **Full Concept (English)**: [Open_Deep_Water_EN.pdf](Open_Deep_Water_EN.pdf)
 - 📝 **Markdown Version**: [Open_Deep_Water.md](Open_Deep_Water.md)
 

@@ -22,7 +22,6 @@
 1. В новом репозитории нажмите **"uploading an existing file"**
 2. Загрузите все файлы из папки `/home/andrew/Open_Deep_Water/`:
    - `index.html` (английская версия - основная)
-   - `index_ru.html` (русская версия)
    - `README.md`
    - `_config.yml`
    - `Open_Deep_Water_RU.pdf`
@@ -49,7 +48,6 @@
 2. Если вы используете другой username, обновите в файлах:
    - В `README.md`
    - В `index.html`
-   - В `index_ru.html`
    - В `_config.yml`
 
 3. Для репозитория ipmgroup файл `_config.yml` содержит:

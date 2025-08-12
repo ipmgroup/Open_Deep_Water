@@ -25,7 +25,7 @@ navigation:
   - title: "English"
     url: "/index.html"
   - title: "Russian" 
-    url: "/index_ru.html"
+    # url: "/index_ru.html" (удалено)
   - title: "Documentation"
     url: "/Open_Deep_Water_EN.pdf"
 
